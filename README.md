@@ -16,7 +16,6 @@
         <li> Toggle Dropout on or off & Dropout Weights
         <li> Toggle transfer learning on or off
         <li> Choice between standard architecture and standard + additional classification layers
-
       </ol>
 </ul>
 
