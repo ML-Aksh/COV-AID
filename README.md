@@ -15,9 +15,15 @@ EfficientNet-B5 was identified as the best model with an F1 score of 0.9769±0.0
 # PREPRINT
 Check out our paper "Efficient and Visualizable Convolutional Neural Networks for COVID-19 Classification Using Chest CT: at: https://arxiv.org/abs/2012.11860
 
-# DATASET
-We used two datasets for our study. Dataset 1 was used for extensive model training, hyperparameter tuning, and evaluation. Dataset 2 was included for comparitive reasons and evaluating the effectiveness of our proposed method on new, alternative datasets. 
+# ORIGINAL DATASETS
+We used two datasets for our study. Dataset 1 was used for extensive model training, hyperparameter tuning, and evaluation. Dataset 2 was included for comparitive reasons and evaluating the effectiveness of our proposed method on new, alternative datasets.
 <ol>
   <li> <a href="https://www.kaggle.com/plameneduardo/a-covid-multiclass-dataset-of-ct-scans"> Dataset 1: A COVID Multiclass Dataset of CT Scans: </a>  4173 CT images of 210 different patients hospitalized in Sao Paulo Brazil. 2168 images of 80 patients infected with COVID-19, 758 images of 50 healthy patients, and 1247 images of 80 patients with other pulmonary infections (~20 images/person). All images were grayscale in nature, collected from patients in Sao Paulo, Brazil, and made freely accessible through Kaggle by Soares E. et al 
+    <ul>
+      We renormaliezd image names for easier use within the scripts and have uploaded the revised version of the dataset within the repository.
+    </ul>
   <li> <a href="https://github.com/mr7495/COVID-CTset"> Dataset 2: COVID-CTset </a> Contains 63849 CT images from 377 patients (96 COVID-19 positive and 283 Covid-19 negative). To facilitate faster testing, we considered a subset of the data comprised of 12058 images from those 377 patients.
 </ol>
+
+
+
