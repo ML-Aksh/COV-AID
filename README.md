@@ -16,4 +16,6 @@ EfficientNet-B5 was identified as the best model with an F1 score of 0.9769±0.0
 Check out our paper "Efficient and Visualizable Convolutional Neural Networks for COVID-19 Classification Using Chest CT: at: https://arxiv.org/abs/2012.11860
 
 # DATASET
-<li> Hi
+We used two datasets for our study:
+<li> <a href="https://www.kaggle.com/plameneduardo/a-covid-multiclass-dataset-of-ct-scans"> Dataset 1: A COVID Multiclass Dataset of CT Scans: </a>
+<li>
