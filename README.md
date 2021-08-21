@@ -8,8 +8,7 @@
   <li> <b> Provide an easily adaptable and adjustable pipeline for image recognition tasks with 20 models including EfficientNets, ResNets, DenseNets, InceptionNets, Xception, VGGs with a <u> single line of code. </u> Customizability features include:
       <ol>
         <li> hi
-          <li> hi
-            
+        <li> hi
       </ol>
 </ul>
 
