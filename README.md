@@ -1,5 +1,6 @@
 # COV-AID
 
+# PROJECT SUMMARY
 With COVID-19 cases rising rapidly, deep learning has emerged as a promising diagnosis technique. However, identifying the most accurate models to characterize COVID-19 patients is challenging because comparing results obtained with different types of data and acquisition processes is non-trivial. 
 
 In this project we designed, evaluated, and compared the performance of 20 convolutional neural networks in classifying patients as COVID-19 positive, healthy, or suffering from other pulmonary lung infections based on Chest CT scans, serving as the first to consider the EfficientNet family for COVID-19 diagnosis and employ intermediate activation maps for visualizing model performance. 
