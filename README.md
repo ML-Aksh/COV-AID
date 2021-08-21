@@ -1,6 +1,13 @@
 # COV-AID
 
-# PROJECT SUMMARY
+# PROJECT SUMMARY 
+<ul>
+  <li> Designed, evaluated, and compared the performance of 20 convolutional neural networks in classifying CT images as COVDI-19 positive, healthy, and as suffering from other pulmonary lung infections
+  <li> Established efficacy of using EfficientNets for COVID-19 Diagnosis
+  <li> Employed Intermediate Activation Maps and Gradient-weighted class activation maps (GradCAMs) to visualize model performance.
+</ul>
+
+# NAVIGATING THIS REPO
 
 
 # PAPER ABSTRACT
@@ -13,7 +20,7 @@ All models are trained and evaluated in Python using 4173 Chest CT images from t
 EfficientNet-B5 was identified as the best model with an F1 score of 0.9769±0.0046, accuracy of 0.9759±0.0048, sensitivity of 0.9788±0.0055, specificity of 0.9730±0.0057, and precision of 0.9751± 0.0051.  On an alternate 2-class dataset, EfficientNetB5 obtained an accuracy of 0.9845±0.0109, F1 score of 0.9599±0.0251, sensitivity of 0.9682±0.0099, specificity of 0.9883±0.0150, and precision of 0.9526 ± 0.0523. Intermediate activation maps and Gradient-weighted Class Activation Mappings offered human-interpretable evidence of the model’s perception of ground-class opacities and consolidations, hinting towards a promising use-case of artificial intelligence-assisted radiology tools. With a prediction speed of under 0.1 seconds on GPUs and 0.5 seconds on CPUs, our proposed model offers a rapid, scalable, and accurate diagnostic for COVID-19. 
 
 # PREPRINT
-Check out our paper "Efficient and Visualizable Convolutional Neural Networks for COVID-19 Classification Using Chest CT: at: https://arxiv.org/abs/2012.11860
+Check out our paper "Efficient and Visualizable Convolutional Neural Networks for COVID-19 Classification Using Chest CT": at: https://arxiv.org/abs/2012.11860
 
 # ORIGINAL DATASETS
 We used two datasets for our study. Dataset 1 was used for extensive model training, hyperparameter tuning, and evaluation. Dataset 2 was included for comparitive reasons and evaluating the effectiveness of our proposed method on new, alternative datasets.
