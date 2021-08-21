@@ -7,7 +7,7 @@
   <li> Employed Intermediate Activation Maps and Gradient-weighted class activation maps (GradCAMs) to visualize model performance.
   <li> <b> Provide an easily adaptable and adjustable pipeline for image recognition tasks with 20 models including EfficientNets, ResNets, DenseNets, InceptionNets, Xception, VGGs with a <u> single line of code. </u> Customizability features include:
       <ol>
-        <li> hi
+        <li> Base CNN Architecture to use. Currently supported options: EfficientNetB0, EfficientNetB1, EfficientNetB2, EfficientNetB3, EfficientNetB4, EfficientNetB5, EfficientNetB6, EfficientNetB7, ResNet50, ResNet50V2, ResNet101v2, ResNet152v2, InceptionResNetv2, VGG16, VGG19, InceptionResNetv2, DenseNet121, DenseNet169, DenseNet201, Xception
         <li> hi
       </ol>
 </ul>
