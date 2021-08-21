@@ -20,7 +20,7 @@ We used two datasets for our study. Dataset 1 was used for extensive model train
 <ol>
   <li> <a href="https://www.kaggle.com/plameneduardo/a-covid-multiclass-dataset-of-ct-scans"> Dataset 1: A COVID Multiclass Dataset of CT Scans: </a>  4173 CT images of 210 different patients hospitalized in Sao Paulo Brazil. 2168 images of 80 patients infected with COVID-19, 758 images of 50 healthy patients, and 1247 images of 80 patients with other pulmonary infections (~20 images/person). All images were grayscale in nature, collected from patients in Sao Paulo, Brazil, and made freely accessible through Kaggle by Soares E. et al 
     <ul>
-      <li> We renormalized image names for easier use within the scripts and have uploaded the revised version of the dataset within the repository.
+      <li> <b> We renormalized image names for easier use within the scripts and have uploaded the revised version of the dataset within the repository. </b>
     </ul>
   <li> <a href="https://github.com/mr7495/COVID-CTset"> Dataset 2: COVID-CTset </a> Contains 63849 CT images from 377 patients (96 COVID-19 positive and 283 Covid-19 negative). To facilitate faster testing, we considered a subset of the data comprised of 12058 images from those 377 patients.
 </ol>
