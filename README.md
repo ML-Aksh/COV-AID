@@ -1,6 +1,4 @@
-# COV-AID
-
-# PROJECT SUMMARY 
+# COV-AID - PROJECT SUMMARY
 _Quick Summary of what I did and how you can use these tools_
 <ul>
   <li> Designed, evaluated, and compared the performance of 20 convolutional neural networks in classifying CT images as COVDI-19 positive, healthy, and as suffering from other pulmonary lung infections
