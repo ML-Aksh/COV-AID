@@ -25,7 +25,7 @@ _In general, whenever stuck, invoke the help command for the functions to get a 
   <li> Next, use the script entitled **PrepareTrainingFiles.py** to create training and testing CSVs using K-Fold Validation. Alternatively, you may use precreated splits in the CleanedData/PreparedCSV Folder
   <li> Check for and remove any corrupted files in the folder using the script entitled **FindingCorruptedFiles.py**. Once files are found, you may remove those entries from outline.csv (can be found under the CleanedData folder)
   <li> For training models and compiling results, you may run NewDesign.py, specifying the command line arguments and parameters as outlined in the Project Summary
-  <li> Use **NewGradCAMs.py** file to create GradCAMs from pre-trained models
+  <li> Use <b>NewGradCAMs.py</b> file to create GradCAMs from pre-trained models
   <li> Use **IntermediateActivationMaps.ipynb** for interactively generating and seeing activations from each model layer.
 </ol>
 
