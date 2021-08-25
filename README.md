@@ -22,11 +22,11 @@ _Quick Summary of what I did and how you can use these tools_
 _In general, whenever stuck, invoke the help command for the functions to get a description of their capacities. For additional guidance, feel free to contact the author._
 <ol>
   <li> As the first step, go to Mendeley Data (the dataset was too large to be contained on Github without chunking which would make reaccumulation for users difficult) and download the folder entitled CleanedData in its entirety and add it to the folder in which you download this respository. Garg, Aksh (2021), “Efficient and Visualizable Convolutional Neural Networks for COVID-19 Classification Using Chest CT”, Mendeley Data, V1, doi: 10.17632/xbn8xrj8kc.1
-  <li> Next, use the script entitled PrepareTrainingFiles.py to create training and testing CSVs using K-Fold Validation. Alternatively, you may use precreated splits in the CleanedData/PreparedCSV Folder
-  <li> Check for and remove any corrupted files in the folder using the script entitled FindingCorruptedFiles.py. Once files are found, you may remove those entries from outline.csv (can be found under the CleanedData folder)
+  <li> Next, use the script entitled **PrepareTrainingFiles.py** to create training and testing CSVs using K-Fold Validation. Alternatively, you may use precreated splits in the CleanedData/PreparedCSV Folder
+  <li> Check for and remove any corrupted files in the folder using the script entitled **FindingCorruptedFiles.py**. Once files are found, you may remove those entries from outline.csv (can be found under the CleanedData folder)
   <li> For training models and compiling results, you may run NewDesign.py, specifying the command line arguments and parameters as outlined in the Project Summary
-  <li> Use NewGradCAMs.py file to create GradCAMs from pre-trained models
-  <li> Use IntermediateActivationMaps.ipynb for interactively generating and seeing activations from each model layer.
+  <li> Use **NewGradCAMs.py** file to create GradCAMs from pre-trained models
+  <li> Use **IntermediateActivationMaps.ipynb** for interactively generating and seeing activations from each model layer.
 </ol>
 
 
