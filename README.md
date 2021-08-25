@@ -42,7 +42,7 @@ We used two datasets for our study. Dataset 1 was used for extensive model train
 
 
 # PREPRINT
-Check out our paper "Efficient and Visualizable Convolutional Neural Networks for COVID-19 Classification Using Chest CT": at: https://arxiv.org/abs/2012.11860
+Check out our paper "Efficient and Visualizable Convolutional Neural Networks for COVID-19 Classification Using Chest CT" at: https://arxiv.org/abs/2012.11860
 
 
 # PAPER ABSTRACT
